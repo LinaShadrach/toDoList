@@ -45,12 +45,4 @@ namespace Todo.Objects
     {
       return _instances[searchId-1];
     }
-    public List<Task> GetTasks()
-    {
-      return _tasks;
-    }
-    public void AddTask(Task task)
-    {
-      _tasks.Add(task);
-    }
   }
